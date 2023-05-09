@@ -9,4 +9,4 @@ class JsonImporter(Importer):
             with open(path) as file:
                 return json.load(file)
 
-        raise ValueError("Error!!")
+        raise ValueError("Arquivo inválido")

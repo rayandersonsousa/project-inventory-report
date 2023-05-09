@@ -11,4 +11,4 @@ class XmlImporter(Importer):
 
             return xml_dict.get("dataset", {}).get("record", [])
 
-        raise ValueError("Error!!")
+        raise ValueError("Arquivo inválido")
